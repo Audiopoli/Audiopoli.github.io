@@ -11,7 +11,6 @@
   });
 
   $.get('http://apfeed.herokuapp.com/rest', function(data) {
-    console.log('d', data)
     if (data && data.length) {
       appendFacebookPosts(data)
     } else {
