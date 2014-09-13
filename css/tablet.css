@@ -1,0 +1,31 @@
+header, footer, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+  
+
+section, .row > section {
+  margin: 0 0 2.5em 0 !important;
+}
+  
+#header {
+  margin: 0 !important;
+  padding: 8em 2em 8em 2em;
+  height: 350px;
+}
+#header .driver {
+  display: none;
+}
+#audiopoli a.button {
+  margin: auto;
+}
+.main {
+  margin: 0 !important;
+}
+
+.main > .content {
+  padding: 3.5em 20px 3.5em 20px;
+}
+
+.main > .content > .container > :last-child {
+  margin-bottom: 0 !important;
+}
