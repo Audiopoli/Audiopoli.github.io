@@ -14,7 +14,7 @@
     if (data && data.length) {
       appendFacebookPosts(data)
     } else {
-      //err
+      $('#posts').html($('<a href="https://fb.com/audiopoli">fb.com/audiopoli</a>'))
     }
   })
 
@@ -22,7 +22,7 @@
     console.log('data')
     var postsElement = $('#posts')
     var postElements = []
-    for (var i=0; i < posts.length; i++) {
+    for (var i=0; i < Math.min(posts.length, 3); i++) {
       var post = posts[i]
       if (post.message) {
         var d = new Date(post.created_time)
@@ -36,7 +36,7 @@
         postElements.push(postElement)
       }
     }
-    postsElement.append(postElements)
+    postsElement.html(postElements)
   }
 
 })(jQuery);

@@ -97,6 +97,9 @@ a.button:hover {
   margin-top: 50px;
 }
 
+#posts .ajaxloader {
+  margin: 50px;
+}
 #audiopoli .fb-post {
   color: #242424;
   display: block;
@@ -159,6 +162,7 @@ a.button:hover {
 
 #contact table {
   width: 100%;
+  font-size: 1.3em;
 }
 #contact table td:first-child {
   text-align: right;
@@ -172,10 +176,9 @@ a.button:hover {
 
 
 #footer {
-  min-height: 200px;
+  min-height: 100px;
   position: relative;
   margin: 0;
-  box-shadow: inset 0 1px 21px 0 #000000;
 }
 
 hr {
