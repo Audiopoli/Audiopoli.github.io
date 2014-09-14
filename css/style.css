@@ -136,7 +136,7 @@ a.button:hover {
 }
 
 #kinopoli .content {
-  padding-top: 150px;
+  padding-top: 130px;
 }
 
 #contact {
@@ -186,31 +186,10 @@ hr {
 
 #audiopoli + hr {
   background: #756a71;
-  background: -moz-radial-gradient(center, ellipse cover,  #756a71 0%, #605665 100%, #756f75 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#756a71), color-stop(100%,#605665), color-stop(100%,#756f75));
-  background: -webkit-radial-gradient(center, ellipse cover,  #756a71 0%,#605665 100%,#756f75 100%);
-  background: -o-radial-gradient(center, ellipse cover,  #756a71 0%,#605665 100%,#756f75 100%);
-  background: -ms-radial-gradient(center, ellipse cover,  #756a71 0%,#605665 100%,#756f75 100%);
-  background: radial-gradient(ellipse at center,  #756a71 0%,#605665 100%,#756f75 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#756a71', endColorstr='#756f75',GradientType=1 );
 }
 #kinopoli + hr {
   background: #4e4e57;
-  background: -moz-radial-gradient(center, ellipse cover,  #4e4e57 10%, #282827 200%, #756f75 10%);
-  background: -webkit-gradient(radial, center center, 10px, center center, 200%, color-stop(0%,#4e4e57), color-stop(10%,#282827), color-stop(10%,#756f75));
-  background: -webkit-radial-gradient(center, ellipse cover,  #4e4e57 10%,#282827 200%,#756f75 10%);
-  background: -o-radial-gradient(center, ellipse cover,  #4e4e57 10%,#282827 200%,#756f75 10%);
-  background: -ms-radial-gradient(center, ellipse cover,  #4e4e57 10%,#282827 200%,#756f75 10%);
-  background: radial-gradient(ellipse at center,  #4e4e57 10%,#282827 200%,#756f75 10%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e4e57', endColorstr='#756f75',GradientType=1 );
 }
 #contact + hr {
   background: #2e2c2b;
-  background: -moz-radial-gradient(center, ellipse cover,  #2e2c2b 20%, #151615 160%);
-  background: -webkit-gradient(radial, center center, 20px, center center, 160%, color-stop(20%,#2e2c2b), color-stop(160%,#151615));
-  background: -webkit-radial-gradient(center, ellipse cover,  #2e2c2b 20%,#151615 160%);
-  background: -o-radial-gradient(center, ellipse cover,  #2e2c2b 20%,#151615 160%);
-  background: -ms-radial-gradient(center, ellipse cover,  #2e2c2b 20%,#151615 160%);
-  background: radial-gradient(ellipse at center,  #2e2c2b 20%,#151615 160%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e2c2b', endColorstr='#151615',GradientType=1 );
 }
