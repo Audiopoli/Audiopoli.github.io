@@ -3,8 +3,15 @@ body {
   line-height: 1.65em;
 }
 #header {
-  padding: 12em 0 12em 0;
+  padding: 5em 0 5em 0;
 }
 .main > .content {
   padding: 4em 0 4em 0;
+}
+#header .logo {
+  width: 400px;
+  padding-bottom: 125px;
+}
+#header .driver {
+  height: 300px;
 }

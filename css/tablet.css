@@ -12,6 +12,10 @@ section, .row > section {
   padding: 8em 2em 8em 2em;
   height: 350px;
 }
+#posts {
+  width: 450px;
+  margin: auto;
+}
 #header .driver {
   display: none;
 }

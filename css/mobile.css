@@ -10,7 +10,10 @@ section, .row > section {
   height: 250px;
   padding: 6em 20px 6em 20px;
 }
-
+#posts {
+  width: 450px;
+  margin: auto;
+}
 #header .logo {
   width: 80%;
 }
