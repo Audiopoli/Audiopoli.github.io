@@ -9,7 +9,7 @@ body{
 body {
   font-family: 'Gudea', sans-serif;
   font-weight: 400;
-  font-size: 100%;
+  font-size: 80%;
   color: #FAFAFA;
   -webkit-text-stroke: 0.1px;
 }
@@ -72,7 +72,7 @@ a.button:hover {
   background-size: contain;
   background-position: center center;
   background-repeat:repeat-x;
-  height: 600px;
+  height: 500px;
   padding: 1em 0px;
   text-align: center;
 }
@@ -80,10 +80,10 @@ a.button:hover {
 #header .logo {
   margin-left: 60px;
   width: 500px;
-  padding-bottom: 210px;
+  padding-bottom: 155px;
 }
 #header .driver {
-  height: 500px;
+  height: 400px;
   margin-top: 40px;
   margin-left: -200px;
 }
@@ -131,7 +131,7 @@ a.button:hover {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 500px;
   text-align: center;
 }
 
@@ -146,7 +146,7 @@ a.button:hover {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 600px;
+  min-height: 500px;
   text-align: center;
   font-size: 90%;
   color: #eeeeee;
@@ -172,13 +172,6 @@ a.button:hover {
 }
 #contact table td {
   padding: 0.5em 1em;
-}
-
-
-#footer {
-  min-height: 100px;
-  position: relative;
-  margin: 0;
 }
 
 hr {
