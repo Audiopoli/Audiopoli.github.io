@@ -30,7 +30,7 @@ a:hover {
   outline: 0;
   color: #e0b348;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover {
   color: #f2c862;
