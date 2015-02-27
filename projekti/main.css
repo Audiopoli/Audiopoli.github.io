@@ -17,7 +17,16 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-
+.old {
+  opacity: 0.3;
+}
+span {
+  font-style: italic;
+  color: #9E9E9E;
+}
+span.note {
+  color: #e0b348;
+}
 p {
   margin: 6px 0;
 }
