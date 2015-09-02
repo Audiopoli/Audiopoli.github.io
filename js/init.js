@@ -1,4 +1,4 @@
-(function($) {
+$(function() {
 
   $('a.join').click(function() {
     if (ga && typeof ga == "function") {
@@ -37,4 +37,4 @@
     postsElement.html(postElements)
   }
 
-})(jQuery);
+});
