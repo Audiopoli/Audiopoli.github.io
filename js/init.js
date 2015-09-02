@@ -1,5 +1,11 @@
 (function($) {
 
+  $('a.join').click(function() {
+    if (ga && typeof ga == "function") {
+      ga('send', 'pageview', '/liity')
+    }
+  })
+
   $.get('http://apfeed.herokuapp.com/rest', function(data) {
     if (data && data.length) {
       appendFacebookPosts(data)
