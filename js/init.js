@@ -1,15 +1,5 @@
 (function($) {
 
-  skel.init({
-    reset: 'full',
-    breakpoints: {
-      'global': { range: '*', href: 'css/style.css', containers: 950, grid: { gutters: 50 } },
-      'normal': { range: '-1280', href: 'css/laptop.css', containers: 900, grid: { gutters: 30 } },
-      'narrow': { range: '-1000', href: 'css/tablet.css', containers: '100%', grid: { gutters: 25, collapse: true } },
-      'mobile': { range: '-640', href: 'css/mobile.css', grid: { gutters: 10 }, viewport: { scalable: false } }
-    }
-  });
-
   $.get('http://apfeed.herokuapp.com/rest', function(data) {
     if (data && data.length) {
       appendFacebookPosts(data)
@@ -19,7 +9,6 @@
   })
 
   function appendFacebookPosts(posts) {
-    console.log('data')
     var postsElement = $('#posts')
     var postElements = []
     for (var i=0; i < Math.min(posts.length, 3); i++) {
