@@ -6,7 +6,7 @@ $(function() {
     }
   })
 
-  $.get('http://apfeed.herokuapp.com/rest', function(data) {
+  $.get('https://apfeed.herokuapp.com/rest', function(data) {
     if (data && data.length) {
       appendFacebookPosts(data)
     } else {
