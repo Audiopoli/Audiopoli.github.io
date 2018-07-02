@@ -271,6 +271,14 @@ hr {
   background: #2e2c2b;
 }
 
+#contact img{
+  height: 1.5em;
+  vertical-align: middle;
+  margin-right: 0.3em;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+
 @media (min-width: 1201px) {
   #audiopoli .fb-post p {
     width: 340px;
